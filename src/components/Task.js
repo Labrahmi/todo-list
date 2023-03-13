@@ -6,7 +6,7 @@
 /*   By: macbook <macbook@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 07:00:20 by macbook           #+#    #+#             */
-/*   Updated: 2023/03/13 01:58:59 by macbook          ###   ########.fr       */
+/*   Updated: 2023/03/13 15:06:39 by macbook          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ export default function Task(props) {
         id={"task-id-" + props.id}
         className="transit opacity-0 tasks-class p-1 border-b flex items-center justify-between mb-1 "
       >
-        <div className="flex items-center overflow-scroll">
+        <div className="flex items-center overflow-auto">
           <div>
             <Checkbox
               color="default"
