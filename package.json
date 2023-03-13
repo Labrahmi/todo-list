@@ -1,4 +1,5 @@
 {
+  "homepage": "https://labrahmi.github.io/todo-list/",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -21,6 +22,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -46,6 +49,7 @@
   "devDependencies": {
     "@babel/plugin-syntax-top-level-await": "^7.14.5",
     "@craco/craco": "^7.1.0",
+    "gh-pages": "^5.0.0",
     "tailwindcss": "^3.2.7"
   }
 }
